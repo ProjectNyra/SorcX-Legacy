@@ -1,16 +1,59 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="SorcX Legacy Web App" />
-    <title>SorcX Legacy</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SorcX | The Future of Motorcycles</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #00f0ff;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .gallery img {
+      width: 90vw;
+      max-width: 500px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px #00f0ff80;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to SorcX</h1>
+  <div class="tagline">Where raw power meets AI evolution. This is not a motorcycle. It's your throne.</div>
+  <div class="gallery">
+    <img src="https://aisorcx.netlify.app/nyra-bike.jpg" alt="NYRA Bike" />
+    <img src="https://aisorcx.netlify.app/future-bike-rider.jpg" alt="SorcX Rider" />
+  </div>
+  <footer>
+    &copy; 2025 SorcX | Powered by AI. Led by Purpose.
+  </footer>
+</body>
 </html>
